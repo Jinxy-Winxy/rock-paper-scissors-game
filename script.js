@@ -15,3 +15,21 @@ function getComputerChoice(){
         return("scissors");
     }
 }
+
+// step 3
+// get human choice return one choice depending on input
+
+function getHumanChoice(){
+
+    let a = prompt("Choice: Rock, Paper or Scissors?").toLowerCase();
+
+    if (a == "rock"){
+        return("rock");
+    }
+        else if (a == "paper"){
+            return("paper");
+    }
+        else {
+            return("scissors");
+        }
+}
